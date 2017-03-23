@@ -10,7 +10,7 @@ if [ ! -d "redis" ]; then
     tar zxvf redis-$REDIS_VERSION.tar.gz
     cd redis-$REDIS_VERSION && make
     mv $REPO_ROOT_PATH/redis-$REDIS_VERSION $REPO_ROOT_PATH/redis
-    cd ..
+    cd $REPO_ROOT_PATH
 else
     echo "   3) INSTALLING REDIS-$REDIS_VERSION (DONE)"
 fi
