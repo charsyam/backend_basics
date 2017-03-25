@@ -10,5 +10,5 @@ echo "RUN ./package_install.sh"
 echo "===================================================="
 
 echo
-echo "thank you"
+echo "thank you very much"
 echo
