@@ -2,7 +2,7 @@
 
 REPO_ROOT_PATH=$(git rev-parse --show-toplevel)
 
-REDIS_VERSION='3.2.8'
+REDIS_VERSION='5.0.3'
 
 if [ ! -d "redis" ]; then
     echo "   3) INSTALLING REDIS-$REDIS_VERSION"
