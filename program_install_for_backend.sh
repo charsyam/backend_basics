@@ -15,7 +15,7 @@ else
     echo "   3) INSTALLING REDIS-$REDIS_VERSION (DONE)"
 fi
 
-ZOOKEEPER_VERSION='3.4.9'
+ZOOKEEPER_VERSION='3.4.13'
 
 if [ ! -d "zookeeper" ]; then
     echo "   4) INSTALLING ZOOKEEPER-$ZOOKEEPER_VERSION"

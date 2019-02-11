@@ -17,12 +17,12 @@ else
     echo "   1-1) INSTALLING PYTHON $PYTHON_VERSION (DONE)"
 fi
 
-installenv=$(pyenv versions | grep soma-env)
+installenv=$(pyenv versions | grep backend-env)
 if [ -z "$installenv" ]; then
-    echo "   1-2) INSTALLING VIRTUALENV soma-env"
-    pyenv virtualenv $PYTHON_VERSION soma-env;
+    echo "   1-2) INSTALLING VIRTUALENV backend-env"
+    pyenv virtualenv $PYTHON_VERSION backend-env;
 else
-    echo "   1-2) INSTALLING VIRTUALENV soma-env (DONE)"
+    echo "   1-2) INSTALLING VIRTUALENV backend-env (DONE)"
 fi
 
 env_dir=$REPO_ROOT_PATH/env

@@ -1,7 +1,7 @@
 import kazoo
 from kazoo.client import KazooClient
 
-REDIS_NODE_PATH="/soma/caches/redis"
+REDIS_NODE_PATH="/backend/caches/redis"
 
 zk = KazooClient(hosts='127.0.0.1:2181')
 zk.start()

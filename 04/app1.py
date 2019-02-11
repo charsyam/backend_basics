@@ -12,7 +12,7 @@ zk = KazooClient(hosts='127.0.0.1:2181')
 zk.start()
 logger = logging.getLogger('tcpserver')
 
-REDIS_NODE_PATH="/soma/caches/redis"
+REDIS_NODE_PATH="/backend/caches/redis"
 redis_ch = None
 
 def rebuild_redis_connections(children):

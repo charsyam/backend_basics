@@ -22,3 +22,5 @@ echo "run source ~/.bashrc"
 echo "run setup.sh"
 echo "===================================================="
 
+. ~/.bashrc
+
