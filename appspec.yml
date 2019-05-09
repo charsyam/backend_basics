@@ -6,11 +6,14 @@ files:
 permissions:
   - object: /data/pipeline
     owner: ec2-user
+    group: ec2-user
     mode: 766
     type:
       - directory
       - file
 hooks:
   AfterInstall:
+    - location: scripts/permission.sh
+      runas: root
     - location: scripts/after.sh
       runas: ec2-user
