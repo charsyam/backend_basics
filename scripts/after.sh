@@ -1,3 +1,3 @@
 #!/bin/sh
 HOST=`hostname`
-echo "hostname: $HOST" >> hostname
+cd /data/pipeline && echo "hostname: $HOST" >> hostname
