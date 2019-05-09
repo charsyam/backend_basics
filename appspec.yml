@@ -3,3 +3,7 @@ os: linux
 files:
   - source: /
     destination: /data/pipelinee
+hooks:
+  AfterInstall:
+    - location: scripts/after.sh
+      runas: ec2-user
