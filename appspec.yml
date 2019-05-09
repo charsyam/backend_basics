@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /data/pipelinee
+    destination: /data/pipeline
 hooks:
   AfterInstall:
     - location: scripts/after.sh
