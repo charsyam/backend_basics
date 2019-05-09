@@ -9,6 +9,7 @@ permissions:
     mode: 766
     type:
       - directory
+      - file
 hooks:
   AfterInstall:
     - location: scripts/after.sh
