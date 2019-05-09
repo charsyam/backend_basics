@@ -3,6 +3,12 @@ os: linux
 files:
   - source: /
     destination: /data/pipeline
+permissions:
+  - object: /data/pipeline
+    owner: ec2-user
+    mode: 766
+    type:
+      - directory
 hooks:
   AfterInstall:
     - location: scripts/after.sh
