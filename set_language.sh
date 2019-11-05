@@ -8,3 +8,7 @@ echo "===================================================="
 echo "RUN source ~/.bashrc"
 echo "RUN ./package_install.sh"
 echo "===================================================="
+
+echo
+echo "thank you very much"
+echo
