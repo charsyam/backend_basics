@@ -13,6 +13,6 @@ sqlparse==0.1.19
 flask==1.1.1
 arrow==0.15.2
 redis==3.3.8
-lxml==3.6.0
+lxml==4.6.5
 configparser==3.5.0b2
 kazoo==2.2.1
